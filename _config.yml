@@ -8,8 +8,7 @@
 # Site Settings (网站基本信息)
 title: "程业正 (Yezheng Cheng) | Academic Homepage"
 description: "本科生，西安电子科技大学。研究兴趣：人工智能安全、视觉语言模型、大语言模型推理。"
-url: "https://stabberasz.github.io" # 【注意】部署时请将此链接替换为你真实的 GitHub Pages 地址
-repository: "stabberasz/stabberasz.github.io"
+repository: "StabberASZ/StabberASZ.github.io"
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
