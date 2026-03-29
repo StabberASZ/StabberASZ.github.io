@@ -7,7 +7,7 @@
 # 网站基本信息 (Site Settings)
 # ==========================================================
 title : "程业正 (Yezheng Cheng) | Academic Homepage"
-description : "本科生，未来希望直接攻读博士学位，目前正在寻找导师。研究兴趣：人工智能及其相关领域。"
+description : "本科生，未来希望直接攻读博士学位。研究兴趣：人工智能及其相关领域。"
 repository : "StabberASZ/StabberASZ.github.io"
 url : "https://stabberasz.github.io"
 baseurl : ""
