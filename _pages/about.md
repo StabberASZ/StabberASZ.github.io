@@ -23,7 +23,7 @@ author_profile: true
   
 ---
 
-<h2 id="skills"><i class="fas fa-tools"></i> 专业技能 (Professional Skills)</h2>
+<h2 id="skills"><i class="fas fa-code"></i> 专业技能 (Professional Skills)</h2>
 
 * **编程语言与系统**: 编程实践丰富，熟练使用 Python, C/C++, Matlab 等；掌握 LaTeX, Verilog HDL, ARM 架构汇编语言。算法与数据结构扎实，代码风格规范，擅长软硬件协同设计，构建结构清晰、层次分明的工程代码。
 * **人工智能与机器学习**: 精通 PyTorch 等深度学习框架、Transformers 等先进模型库及 Numpy, SciPy, Pandas 等机器学习库；掌握 Wandb 等深度学习工作流操作；具备系统级行为模拟与内核编译经验。
