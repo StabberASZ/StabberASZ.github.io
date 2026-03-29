@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: default
 title: "关于我 (About Me)"
 permalink: /
 author_profile: true
