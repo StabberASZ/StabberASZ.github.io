@@ -32,15 +32,19 @@ author_profile: true
 <h2 id="research"><i class="fas fa-microscope"></i> 研究经历 (Research Experience)</h2>
 
 ### [1] VLMSysTrojan: 针对视觉语言模型的隐蔽系统感知后门攻击
-<div style="margin-bottom: 10px;">
-  <span style="background-color: #f1f8ff; color: #0366d6; padding: 2px 8px; border-radius: 4px; font-size: 13px; font-weight: bold; margin-right: 5px;">第一作者</span>
-  <span style="background-color: #fffbdd; color: #735c0f; padding: 2px 8px; border-radius: 4px; font-size: 13px; font-weight: bold; margin-right: 10px;">已投稿于 ECCV 2026</span>
-  <a href="/files/VLMSysTrojan__fullversion.pdf" target="_blank" style="display: inline-block; padding: 3px 12px; background-color: #2ea44f; color: white; border-radius: 4px; text-decoration: none; font-size: 13px; font-weight: bold; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"><i class="fas fa-file-pdf"></i> 附论文原件 (PDF)</a>
-<div style="max-width: 250px;"> <div class='paper-box' style="margin: 0;">
+
+<div style="display: flex; align-items: center; justify-content: flex-start; gap: 20px; margin-bottom: 15px;">
+  <div style="display: flex; align-items: center; flex-wrap: wrap; gap: 10px;">
+    <span style="background-color: #f1f8ff; color: #0366d6; padding: 2px 8px; border-radius: 4px; font-size: 13px; font-weight: bold;">第一作者</span>
+    <span style="background-color: #fffbdd; color: #735c0f; padding: 2px 8px; border-radius: 4px; font-size: 13px; font-weight: bold;">已投稿于 ECCV 2026</span>
+    <a href="/files/VLMSysTrojan__fullversion.pdf" target="_blank" style="display: inline-block; padding: 3px 12px; background-color: #2ea44f; color: white; border-radius: 4px; text-decoration: none; font-size: 13px; font-weight: bold; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"><i class="fas fa-file-pdf"></i> 附论文原件 (PDF)</a>
+  </div>
+
+  <div style="max-width: 450px; flex-shrink: 0;"> <div class='paper-box' style="margin: 0;">
       <div class='paper-box-image'>
         <div>
           <div class="badge">ECCV 2026</div>
-          <img src='images/trojan3.jpg' alt="sym" width="100%" style="border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+          <img src='images/trojan1.jpg' alt="VLMSysTrojan Architecture" width="100%" style="border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
         </div>
       </div>
     </div>
