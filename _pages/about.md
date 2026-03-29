@@ -40,8 +40,16 @@ author_profile: true
   <span style="background-color: #f1f8ff; color: #0366d6; padding: 2px 8px; border-radius: 4px; font-size: 13px; font-weight: bold; margin-right: 5px;">第一作者</span>
   <span style="background-color: #fffbdd; color: #735c0f; padding: 2px 8px; border-radius: 4px; font-size: 13px; font-weight: bold; margin-right: 10px;">已投稿于 ECCV 2026</span>
   <a href="/files/VLMSysTrojan__fullversion.pdf" target="_blank" style="display: inline-block; padding: 3px 12px; background-color: #2ea44f; color: white; border-radius: 4px; text-decoration: none; font-size: 13px; font-weight: bold; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"><i class="fas fa-file-pdf"></i> 附论文原件 (PDF)</a>
-  <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV 2026</div><img src='images/trojan1.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'>
+    <div class='paper-box-image'>
+      <div>
+        <div class="badge">ECCV 2026</div>
+        <img src='images/trojan4.jpg' alt="sym" width="100%">
+      </div>
+    </div>
+  </div>
 </div>
+
 * **研究方向**: 后门攻击、系统级优化、视觉语言模型 (VLMs)
 * **研究背景**: VLMs在现实部署中高度依赖特定系统内核(如CUDA)加速。现有研究忽视了训练与推理内核间的浮点数不一致性带来的安全隐患，导致现有模型级后门在云端易被检测，异构部署存在严重的安全检测空白。
 * **核心方法**: 提出首个针对 VLMs 的系统感知后门攻击红蓝对抗框架 **VLMSysTrojan**。
