@@ -2,74 +2,66 @@
 #
 # This config file is meant for settings that affect your entire site, values
 # which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
 
-# Site Settings (网站基本信息)
-title: "程业正 (Yezheng Cheng) | Academic Homepage"
-description: "本科生，西安电子科技大学。研究兴趣：人工智能安全、视觉语言模型、大语言模型推理。"
-repository: "StabberASZ/StabberASZ.github.io"
+# ==========================================================
+# 网站基本信息 (Site Settings)
+# ==========================================================
+title : "程业正 (Yezheng Cheng) | Academic Homepage"
+description : "本科生，西安电子科技大学。研究兴趣：人工智能安全、视觉语言模型、大语言模型推理。"
+repository : "StabberASZ/StabberASZ.github.io"
+url : "https://stabberasz.github.io"
+baseurl : ""
+google_scholar_stats_use_cdn : false
 
-# google analytics
-google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
+google_analytics_id : 
+google_site_verification : 
+bing_site_verification : 
+baidu_site_verification : 
 
-# SEO Related
-google_site_verification :  # get google_site_verification from https://search.google.com/search-console/about
-bing_site_verification   :  # get bing_site_verification from https://www.bing.com/webmasters/about
-baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.baidu.com/login/index?u=/site/index
-
-# Author Information (左侧边栏个人名片)
+# ==========================================================
+# 左侧边栏个人名片 (Site Author)
+# ==========================================================
 author:
   name     : "程业正 (Yezheng Cheng)"
-  avatar   : "/images/profile.jpg" # 【重要】请将你的高清免冠正装照或学术照命名为 profile.jpg 放入 images 文件夹中
-  bio      : "西安电子科技大学 信息工程在读<br>GPA: 90.33/100 (排名: 1/125)<br>连续两年国家奖学金获得者"
+  avatar   : "profile.jpg"  # 确保你的照片已命名为 profile.jpg 放入 images 文件夹中
+  bio      : "西安电子科技大学 信息工程在读<br>GPA: 90.33/100 (1/125)<br>连续两年国家奖学金<br><br><i class='fas fa-phone'></i> 187-5513-8151<br><i class='fab fa-qq'></i> 2792765348"
   location : "中国, 西安 (Xi'an, China)"
+  employer : 
+  pubmed :
+  googlescholar : 
   email    : "yzcheng0611@163.com"
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:yzcheng0611@163.com"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/stabberasz"
-    - label: "QQ: 2792765348"
-      icon: "fab fa-fw fa-qq"
-      url: "tencent://message/?uin=2792765348"
-    - label: "Phone"
-      icon: "fas fa-fw fa-phone"
-      url: "tel:+8618755138151"
-  employer         :
-  pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=YOUR_GOOGLE_SCHOLAR_ID"
-  researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : # e.g., "github username"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : # e.g., "https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
-  linkedin         : # e.g., "linkedin username"
-  dblp             : # e.g., "https://dblp.org/pid/xx/xxxx.html"
-  orcid            : # e.g., "https://orcid.org/xxxx"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  twitter          : 
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
+  researchgate : 
+  uri      :
+  bitbucket:
+  codepen  :
+  dribbble :
+  flickr   :
+  facebook :
+  foursquare:
+  github   : "StabberASZ"
+  google_plus:
+  keybase  :
+  instagram:
+  impactstory: 
+  lastfm   :
+  linkedin : 
+  dblp     : 
+  orcid    : 
+  pinterest:
+  soundcloud:
+  stackoverflow: 
+  steam    :
+  tumblr   :
+  twitter  :
+  vine     :
+  weibo    :
+  xing     :
+  youtube  :
+  wikipedia:
 
+# ===================================================================
+# 以下部分为 Jekyll 系统的底层依赖与编译构建设置，千万不能删除哦！
+# ===================================================================
 
 # Reading Files
 include:
@@ -92,6 +84,7 @@ exclude:
   - Gruntfile.js
   - LICENSE
   - README
+  - README.md
   - Rakefile
   - assets/js/_main.js
   - assets/js/plugins
@@ -109,14 +102,12 @@ keep_files:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-
 # Conversion
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
 
 # Markdown Processing
 kramdown:
@@ -131,7 +122,6 @@ kramdown:
 
 # Defaults
 defaults:
-  # _pages
   - scope:
       path: ""
       type: pages
@@ -139,17 +129,14 @@ defaults:
       layout: default
       author_profile: true
 
-
 # Sass/SCSS
 sass:
   sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
+  style: compressed
 
 # Outputting
 permalink: /:categories/:title/
-timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
+timezone: Asia/Shanghai
 
 # Plugins
 plugins:
@@ -158,6 +145,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-redirect-from
+
 # mimic GitHub Pages with --safe
 whitelist:
   - jekyll-paginate
@@ -166,9 +154,7 @@ whitelist:
   - jekyll-feed
   - jemoji
 
-
 # HTML Compression
-# - http://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
