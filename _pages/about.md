@@ -16,7 +16,15 @@ author_profile: true
 * **西安电子科技大学 (Xidian University)**，工学学士，信息工程 `2023.09 - 至今`
   * **GPA**: 90.33 / 100 | **成绩排名**: 1 / 125
   * **荣誉奖项**: 国家奖学金 (连续两年, 前1%)、华萌奖学金、校级优秀学生等
+  
+---
 
+<h2 id="skills"><i class="fas fa-tools"></i> 专业技能 (Professional Skills)</h2>
+
+* **编程语言与系统**: 编程实践丰富，熟练使用 Python, C/C++, Matlab 等；掌握 LaTeX, Verilog HDL, ARM 架构汇编语言。算法与数据结构扎实，代码风格规范，擅长软硬件协同设计，构建结构清晰、层次分明的工程代码。
+* **人工智能与机器学习**: 精通 PyTorch 等深度学习框架、Transformers 等先进模型库及 Numpy, SciPy, Pandas 等机器学习库；掌握 Wandb 等深度学习工作流操作；具备系统级行为模拟与内核编译经验。
+* **硬件与底层开发**: 熟悉 Vivado, Quartus II, Keil5, Multisim 等工业软件，具备 FPGA, STM32 嵌入式系统的基础开发经验。
+* **英语与学术素养**: CET-6 (511分), CET-4 (597分)。具备以一作身份完成全英学术论文 **Writing - Submission - Rebuttal** 全流程的扎实经验。
 ---
 
 <h2 id="research"><i class="fas fa-microscope"></i> 研究经历 (Research Experience)</h2>
@@ -79,15 +87,6 @@ author_profile: true
   2. 针对历史数据稀疏提取六大特征，引入 SMOTE 过采样合成少数类样本，构建 XGBoost 分类器扭转预测偏倚。
   3. 运用 SHAP 分析揭示决定性影响，创新基于 t 检验的蒙特卡洛模拟量化模型，实现“名帅效应”的孤立解耦与定量化。
 * **项目效果**: 金牌与总奖牌预测 $R^2$ 分别达 0.977 和 0.984；首牌预测模型实现 86.5% 高分类准确率。
-
----
-
-<h2 id="skills"><i class="fas fa-tools"></i> 专业技能 (Professional Skills)</h2>
-
-* **编程语言与系统**: 编程实践丰富，熟练使用 Python, C/C++, Matlab 等；掌握 LaTeX, Verilog HDL, ARM 架构汇编语言。算法与数据结构扎实，代码风格规范，擅长软硬件协同设计，构建结构清晰、层次分明的工程代码。
-* **人工智能与机器学习**: 精通 PyTorch 等深度学习框架、Transformers 等先进模型库及 Numpy, SciPy, Pandas 等机器学习库；掌握 Wandb 等深度学习工作流操作；具备系统级行为模拟与内核编译经验。
-* **硬件与底层开发**: 熟悉 Vivado, Quartus II, Keil5, Multisim 等工业软件，具备 FPGA, STM32 嵌入式系统的基础开发经验。
-* **英语与学术素养**: CET-6 (511分), CET-4 (597分)。具备以一作身份完成全英学术论文 **Writing - Submission - Rebuttal** 全流程的扎实经验。
 
 ---
 
