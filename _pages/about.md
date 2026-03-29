@@ -70,7 +70,7 @@ author_profile: true
 
 ### [2] CPO-RF: 基于多模型协同与元启发式优化的奥运会奖牌预测
 <div style="margin-bottom: 10px;">
-  <span style="background-color: #e5f5e0; color: #2ca25f; padding: 2px 8px; border-radius: 4px; font-size: 13px; font-weight: bold; margin-right: 5px;">MCM/ICM 2025 | Finalist (特等奖提名, 排名前 2%)</span>
+  <span style="background-color: #e5f5e0; color: #2ca25f; padding: 2px 8px; border-radius: 4px; font-size: 13px; font-weight: bold; margin-right: 5px;">MCM/ICM 2025 | Finalist (特等奖提名, 排名前 1.1%)</span>
   <span style="background-color: #f3f4f6; color: #374151; padding: 2px 8px; border-radius: 4px; font-size: 13px; font-weight: bold;">队长</span>
 </div>
 
@@ -97,6 +97,6 @@ author_profile: true
 * **国家奖学金** (Top 1%, ¥10000) | *西安电子科技大学* `2024-2025年度`
 * **国家奖学金** (Top 1%, ¥10000) | *西安电子科技大学* `2023-2024年度`
 * **Bronze Medal (铜牌)** | *ARC Prize 2025 全球挑战赛* `2025年`
-* **Finalist (特等奖提名, Top 2%)** | *美国大学生数学建模竞赛 (MCM/ICM)* `2025年`
-* **华萌奖学金** | *西安电子科技大学* `2024年`
+* **Finalist (特等奖提名, Top 1.1%)** | *美国大学生数学建模竞赛 (MCM/ICM)* `2025年`
+* **华萌奖学金** | *西安电子科技大学* `2025年`
 * **校级优秀学生** | *西安电子科技大学* `2024年, 2025年`
