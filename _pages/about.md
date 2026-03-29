@@ -16,7 +16,7 @@ author_profile: true
 * **西安电子科技大学 (Xidian University)**，工学学士，信息工程 `2023.09 - 至今`
   * **GPA**: 90.33 / 100 | **成绩排名**: 1 / 125
   * **荣誉奖项**: 国家奖学金 (连续两年, 前1%)、华萌奖学金、校级优秀学生等
-  
+  * **核心课程**: 高等数学(I,II)(97,96)、大学物理(I,II) (93,94)、计算机导论与程序设计(97)、概率论与数理统计(91)、复变函数(91)、电路分析基础(91)、微控制系统项目设计(94)、信号与系统(90)、数字信号处理(90)、随机信号分析(99)、信息论(94)、通信系统(91)、5G信息与标准化(95)等。
 ---
 
 <h2 id="skills"><i class="fas fa-tools"></i> 专业技能 (Professional Skills)</h2>
@@ -32,25 +32,12 @@ author_profile: true
 <h2 id="research"><i class="fas fa-microscope"></i> 研究经历 (Research Experience)</h2>
 
 ### [1] VLMSysTrojan: 针对视觉语言模型的隐蔽系统感知后门攻击
-
-<div style="display: flex; align-items: center; justify-content: flex-start; gap: 20px; margin-bottom: 15px;">
-  <div style="display: flex; align-items: center; flex-wrap: wrap; gap: 10px;">
-    <span style="background-color: #f1f8ff; color: #0366d6; padding: 2px 8px; border-radius: 4px; font-size: 13px; font-weight: bold;">第一作者</span>
-    <span style="background-color: #fffbdd; color: #735c0f; padding: 2px 8px; border-radius: 4px; font-size: 13px; font-weight: bold;">已投稿于 ECCV 2026</span>
-    <a href="/files/VLMSysTrojan__fullversion.pdf" target="_blank" style="display: inline-block; padding: 3px 12px; background-color: #2ea44f; color: white; border-radius: 4px; text-decoration: none; font-size: 13px; font-weight: bold; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"><i class="fas fa-file-pdf"></i> 附论文原件 (PDF)</a>
-  </div>
-
-  <div style="max-width: 450px; flex-shrink: 0;"> <div class='paper-box' style="margin: 0;">
-      <div class='paper-box-image'>
-        <div>
-          <div class="badge">ECCV 2026</div>
-          <img src='images/trojan1.jpg' alt="VLMSysTrojan Architecture" width="100%" style="border-radius: 4px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-        </div>
-      </div>
-    </div>
-  </div>
+<div style="margin-bottom: 10px;">
+  <span style="background-color: #f1f8ff; color: #0366d6; padding: 2px 8px; border-radius: 4px; font-size: 13px; font-weight: bold; margin-right: 5px;">第一作者</span>
+  <span style="background-color: #fffbdd; color: #735c0f; padding: 2px 8px; border-radius: 4px; font-size: 13px; font-weight: bold; margin-right: 10px;">已投稿于 ECCV 2026</span>
+  <a href="/files/VLMSysTrojan__fullversion.pdf" target="_blank" style="display: inline-block; padding: 3px 12px; background-color: #2ea44f; color: white; border-radius: 4px; text-decoration: none; font-size: 13px; font-weight: bold; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"><i class="fas fa-file-pdf"></i> 附论文原件 (PDF)</a>
+  <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV 2026</div><img src='images/trojan1.jpg' alt="sym" width="100%"></div></div>
 </div>
-
 * **研究方向**: 后门攻击、系统级优化、视觉语言模型 (VLMs)
 * **研究背景**: VLMs在现实部署中高度依赖特定系统内核(如CUDA)加速。现有研究忽视了训练与推理内核间的浮点数不一致性带来的安全隐患，导致现有模型级后门在云端易被检测，异构部署存在严重的安全检测空白。
 * **核心方法**: 提出首个针对 VLMs 的系统感知后门攻击红蓝对抗框架 **VLMSysTrojan**。
