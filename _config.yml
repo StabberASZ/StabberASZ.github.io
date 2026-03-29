@@ -24,7 +24,7 @@ baidu_site_verification :
 author:
   name     : "程业正 (Yezheng Cheng)"
   avatar   : "/images/profile2.jpg"  # 确保你的照片已命名为 profile.jpg 放入 images 文件夹中
-  bio      : "西安电子科技大学 <br>信息工程 在读<br>GPA: 90.33/100 (1/125)<br><br><i class='fas fa-home'></i> 安徽,合肥<br><i class='fas fa-phone'></i> 187-5513-8151<br><i class='fab fa-weixin'></i>stabberasz<br><i class='fab fa-qq'></i>  2792765348<br><i class='fab fa-mail'></i> yezheng0611@163.com"
+  bio      : "西安电子科技大学 <br>信息工程 在读<br>GPA: 90.33/100 (1/125)<br><br><i class='fas fa-home'></i> 安徽,合肥<br><i class='fas fa-phone'></i> 187-5513-8151<br><i class='fab fa-weixin'></i>stabberasz<br><i class='fab fa-qq'></i>  2792765348<br><i class='fab fa-envelope'></i> yezheng0611@163.com"
   location : "中国, 西安 (Xi'an, China)"
   employer : 
   pubmed :
