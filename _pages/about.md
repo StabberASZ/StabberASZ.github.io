@@ -107,9 +107,9 @@ author_profile: true
 
 <h2 id="honors"><i class="fas fa-award"></i> 荣誉奖项 (Honors & Awards)</h2>
 
-* **国家奖学金** (Top 1%, ¥10000) |     *西安电子科技大学* `2024-2025年度`
-* **国家奖学金** (Top 1%, ¥10000) |     *西安电子科技大学* `2023-2024年度`
-* **Bronze Medal (铜牌)** |                *ARC Prize 2025 全球挑战赛* `2025年`
-* **Finalist (特等奖提名, Top 1.1%)** | *美国大学生数学建模竞赛 (MCM/ICM)* `2025年`
-* **华萌奖学金** |                           *西安电子科技大学* `2025年`
-* **校级优秀学生** |                          *西安电子科技大学* `2024年, 2025年`
+* **国家奖学金** (Top 1%, ¥10000) <span style="float: right;">*西安电子科技大学* `2024-2025年度`</span>
+* **国家奖学金** (Top 1%, ¥10000) <span style="float: right;">*西安电子科技大学* `2023-2024年度`</span>
+* **Bronze Medal (铜牌)** <span style="float: right;">*ARC Prize 2025 全球挑战赛* `2025年`</span>
+* **Finalist (特等奖提名, Top 1.1%)** <span style="float: right;">*美国大学生数学建模竞赛 (MCM/ICM)* `2025年`</span>
+* **华萌奖学金** <span style="float: right;">*西安电子科技大学* `2025年`</span>
+* **校级优秀学生** <span style="float: right;">*西安电子科技大学* `2024年, 2025年`</span>
