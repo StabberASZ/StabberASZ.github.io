@@ -25,6 +25,8 @@ author_profile: true
 * **人工智能与机器学习**: 精通 PyTorch 等深度学习框架、Transformers 等先进模型库及 Numpy, SciPy, Pandas 等机器学习库；掌握 Wandb 等深度学习工作流操作；具备系统级行为模拟与内核编译经验。
 * **硬件与底层开发**: 熟悉 Vivado, Quartus II, Keil5, Multisim 等工业软件，具备 FPGA, STM32 嵌入式系统的基础开发经验。
 * **英语与学术素养**: CET-6 (511分), CET-4 (597分)。具备以一作身份完成全英学术论文 **Writing - Submission - Rebuttal** 全流程的扎实经验。
+
+
 ---
 
 <h2 id="research"><i class="fas fa-microscope"></i> 研究经历 (Research Experience)</h2>
@@ -92,9 +94,9 @@ author_profile: true
 
 <h2 id="honors"><i class="fas fa-award"></i> 荣誉奖项 (Honors & Awards)</h2>
 
-* **国家奖学金** (Top 1%, ¥10000) | *西安电子科技大学* `2024-2025年度`
-* **国家奖学金** (Top 1%, ¥10000) | *西安电子科技大学* `2023-2024年度`
-* **Bronze Medal (铜牌)** | *ARC Prize 2025 全球挑战赛* `2025年`
+* **国家奖学金** (Top 1%, ¥10000) |     *西安电子科技大学* `2024-2025年度`
+* **国家奖学金** (Top 1%, ¥10000) |     *西安电子科技大学* `2023-2024年度`
+* **Bronze Medal (铜牌)** |             *ARC Prize 2025 全球挑战赛* `2025年`
 * **Finalist (特等奖提名, Top 1.1%)** | *美国大学生数学建模竞赛 (MCM/ICM)* `2025年`
-* **华萌奖学金** | *西安电子科技大学* `2025年`
-* **校级优秀学生** | *西安电子科技大学* `2024年, 2025年`
+* **华萌奖学金** |                      *西安电子科技大学* `2025年`
+* **校级优秀学生** |                    *西安电子科技大学* `2024年, 2025年`
