@@ -69,7 +69,7 @@ author_profile: true
 <div class='paper-box'>
     <div class='paper-box-image'>
       <div>
-        <img src='images/guard.jpg' alt="sym" width="100%">
+        <img src='images/MagicGuard_Method.jpg' alt="sym" width="100%">
       </div>
     </div>
   </div>
@@ -88,7 +88,7 @@ author_profile: true
 <div style="margin-bottom: 10px;">
   <span style="background-color: #e5f5e0; color: #2ca25f; padding: 2px 8px; border-radius: 4px; font-size: 13px; font-weight: bold; margin-right: 5px;">ARC Prize 2025 全球挑战赛 | Bronze Medal (铜牌, 107/1456, Top 7.5%)</span>
   <span style="background-color: #f3f4f6; color: #374151; padding: 2px 8px; border-radius: 4px; font-size: 13px; font-weight: bold;">核心队员</span>
-  <a href="/files/ARC2025yezheng.png" target="_blank" style="display: inline-block; padding: 3px 12px; background-color: #94070A; color: white; border-radius: 4px; text-decoration: none; font-size: 13px; font-weight: bold; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"><i class="fa-solid fa-ranking-star"></i> 获奖证书</a>
+  <a href="/files/ARC2025yezheng.png" target="_blank" style="display: inline-block; padding: 3px 12px; background-color: #0366d6; color: white; border-radius: 4px; text-decoration: none; font-size: 13px; font-weight: bold; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"><i class="fas fa-ranking-star"></i> 获奖证书</a>
 </div>
 
 * **研究方向**: 大语言模型推理、扩散模型、少样本视觉逻辑推理
@@ -103,6 +103,7 @@ author_profile: true
   <span style="background-color: #e5f5e0; color: #2ca25f; padding: 2px 8px; border-radius: 4px; font-size: 13px; font-weight: bold; margin-right: 5px;">MCM/ICM 2025 | Finalist (特等奖提名, 排名前 1.1%)</span>
   <span style="background-color: #f3f4f6; color: #374151; padding: 2px 8px; border-radius: 4px; font-size: 13px; font-weight: bold;">队长</span>
  <a href="/files/meisaiF.pdf" target="_blank" style="display: inline-block; padding: 3px 12px; background-color: #2ea44f; color: white; border-radius: 4px; text-decoration: none; font-size: 13px; font-weight: bold; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"><i class="fas fa-file-pdf"></i> 附论文原件 (PDF)</a>
+ <a href="/files/MCMICM2025yezheng.png" target="_blank" style="display: inline-block; padding: 3px 12px; background-color: #0366d6; color: white; border-radius: 4px; text-decoration: none; font-size: 13px; font-weight: bold; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"><i class="fas fa-ranking-star"></i> 获奖证书</a>
 </div>
 
 * **研究方向**: 数学建模、机器学习、数据挖掘
