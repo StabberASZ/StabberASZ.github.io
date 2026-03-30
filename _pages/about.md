@@ -69,7 +69,7 @@ author_profile: true
 <div class='paper-box'>
     <div class='paper-box-image'>
       <div>
-        <img src='images/MagicGuard_Method.jpg' alt="sym" width="100%">
+        <img src='files/MagicGuard_Method.jpg' alt="sym" width="100%">
       </div>
     </div>
   </div>
