@@ -39,7 +39,7 @@ author_profile: true
 <div style="margin-bottom: 10px;">
   <span style="background-color: #f1f8ff; color: #0366d6; padding: 2px 8px; border-radius: 4px; font-size: 13px; font-weight: bold; margin-right: 5px;">第一作者</span>
   <span style="background-color: #fffbdd; color: #735c0f; padding: 2px 8px; border-radius: 4px; font-size: 13px; font-weight: bold; margin-right: 10px;">已投稿于 ECCV 2026</span>
-  <a href="/files/VLMSysTrojan__fullversion.pdf" target="_blank" style="display: inline-block; padding: 3px 12px; background-color: #2ea44f; color: white; border-radius: 4px; text-decoration: none; font-size: 13px; font-weight: bold; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"><i class="fas fa-file-pdf"></i> 附论文原件 (PDF)</a>
+  <a href="/files/VLMSysTrojan_abridgedversion.pdf" target="_blank" style="display: inline-block; padding: 3px 12px; background-color: #2ea44f; color: white; border-radius: 4px; text-decoration: none; font-size: 13px; font-weight: bold; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"><i class="fas fa-file-pdf"></i> 附论文原件 (PDF)</a>
  <a href="/files/CVPR2026Reviews.pdf" target="_blank" style="display: inline-block; padding: 3px 12px; background-color: #0366d6; color: white; border-radius: 4px; text-decoration: none; font-size: 13px; font-weight: bold; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"><i class="fas fa-comments"></i> 附 CVPR2026 审稿意见</a>
 <div class='paper-box'>
     <div class='paper-box-image'>
@@ -96,7 +96,7 @@ author_profile: true
   1. **Skill-Mix 数据合成**: 利用大模型融合逻辑算子自动合成海量复杂变种任务，引入 BPE Dropout 随机正则化提升鲁棒性。
   2. **二维掩码扩散 LLM**: 结合二维位置编码构建掩码扩散语言模型，将网格生成转化为连续迭代采样的掩码还原过程，赋予模型全局统筹与自我纠错能力。
   3. **测试时训练 (TTT)**: 基于 AIRV 对极少示例进行几何变换以动态微调底座模型，并将预测结果反向变换后集成投票(Vote)消除视角方差。
-* **项目效果**: 在严苛算力与时间约束下，于极具挑战性的隐藏测试集取得超越 **27%** 的准确率，远超同期参数量庞大的闭源商业大模型 (如 Opus 4.5)。
+* **项目效果**: 在严苛算力与时间约束下，于极具挑战性的隐藏测试集取得极为优异的准确率，持平同期参数量庞大的闭源商业大模型 (如 Opus 4.5)。
 
 ### [2] CPO-RF: 基于多模型协同与元启发式优化的奥运会奖牌预测
 <div style="margin-bottom: 10px;">
