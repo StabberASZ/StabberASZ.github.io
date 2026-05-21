@@ -63,22 +63,22 @@ author_profile: true
 
 ### [2] MagicGuard: 基于自毁机制防御 DNN 模型水印移除攻击
 <div style="margin-bottom: 10px;">
-  <span style="background-color: #f1f8ff; color: #0366d6; padding: 2px 8px; border-radius: 4px; font-size: 13px; font-weight: bold; margin-right: 5px;">共同第一作者</span>
-  <span style="background-color: #f3f4f6; color: #374151; padding: 2px 8px; border-radius: 4px; font-size: 13px; font-weight: bold; margin-right: 10px;">预计投稿于 NeurIPS 2026</span>
-  <a href="/files/MagicGuard_paper.pdf" target="_blank" style="display: inline-block; padding: 3px 12px; background-color: #2ea44f; color: white; border-radius: 4px; text-decoration: none; font-size: 13px; font-weight: bold; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"><i class="fas fa-file-pdf"></i> 论文原件(暂无) (PDF)</a>
+  <span style="background-color: #f1f8ff; color: #0366d6; padding: 2px 8px; border-radius: 4px; font-size: 13px; font-weight: bold; margin-right: 5px;">第一作者</span>
+  <span style="background-color: #f3f4f6; color: #374151; padding: 2px 8px; border-radius: 4px; font-size: 13px; font-weight: bold; margin-right: 10px;">已投稿于 NeurIPS 2026</span>
+  <a href="/files/MagicGuard_paper.pdf" target="_blank" style="display: inline-block; padding: 3px 12px; background-color: #2ea44f; color: white; border-radius: 4px; text-decoration: none; font-size: 13px; font-weight: bold; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"><i class="fas fa-file-pdf"></i> 附论文部分内容 (PDF)</a>
 <div class='paper-box'>
     <div class='paper-box-image'>
       <div>
-        <img src='files/MagicGuard_Method.jpg' alt="sym" width="100%">
+        <img src='files/MagicGuard_Method1.jpg' alt="sym" width="100%">
       </div>
     </div>
   </div>
 </div>
 
 * **研究方向**: 人工智能安全、模型水印、模型防窃
-* **研究背景**: 现有的 DNN 模型水印技术极为脆弱，攻击者可通过模型微调(Fine-tuning)轻易擦除水印记忆。面对掌握完整训练数据的深度微调攻击，传统被动防御陷入“猫鼠游戏”，亟需一种主动式的全新防御范式防止预训练模型被盗用。
+* **研究背景**: 现有的防止恶意下游微调技术都存在其脆弱性，攻击者可通过模型微调(Fine-tuning)轻易擦除水印记忆或激活扩散模型中已被遗忘的有害概念等。面对掌握完整训练数据的深度微调攻击，传统被动防御陷入“猫鼠游戏”，亟需一种主动式的全新防御范式防止预训练模型被盗用。
 * **核心方法**: 提出首个通过主动自毁 (Self-destruction) 策略抵御水印微调移除攻击的框架 **MagicGuard**。在目标模型中注入带有混淆激活函数 (如引入残差 $f(x)=x+\sin(x)$) 的专有层。该层在正常前向传播时近似恒等映射，完美保留良性预测效用；但在遭遇恶意微调反向传播时，混淆函数产生极具破坏性的随机梯度，严重干扰并掩蔽真实梯度，阻止权重正常收敛。
-* **实验效果**: 在针对四种主流水印方案的广泛实验中，遭遇全面微调攻击时盗版模型准确率断崖式降至接近 **0%**，使其失去一切商业价值；正常部署中几乎不引入额外性能损耗 (准确率下降 < 1%)，且完好保留了对常见图像变换及对抗样本攻击的鲁棒性。
+* **实验效果**: 在跨越 4 种模型架构、4 种主流水印方案、3 个图像数据集以及 Stable Diffusion 概念遗忘的广泛实验中，**MagicGuard** 展现出统治级的防御性能：在分类器标准的微调下，累积的噪声会引发参数的随机游走，使权重退化至完全不可用；在扩散模型基于指数移动平均 (EMA) 的微调范式下，该噪声会被高阶滤波器高效抵消并归零，使得最终保存的权重死锁在初始基线附近。
 
 ---
 
