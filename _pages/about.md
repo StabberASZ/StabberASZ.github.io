@@ -64,7 +64,7 @@ author_profile: true
 ### [2] MagicGuard: 基于自毁机制防御 DNN 模型水印移除攻击
 <div style="margin-bottom: 10px;">
   <span style="background-color: #f1f8ff; color: #0366d6; padding: 2px 8px; border-radius: 4px; font-size: 13px; font-weight: bold; margin-right: 5px;">第一作者</span>
-  <span style="background-color: #f3f4f6; color: #374151; padding: 2px 8px; border-radius: 4px; font-size: 13px; font-weight: bold; margin-right: 10px;">已投稿于 NeurIPS 2026</span>
+  <span style="background-color: #fffbdd; color: #735c0f; padding: 2px 8px; border-radius: 4px; font-size: 13px; font-weight: bold; margin-right: 10px;">已投稿于 NeurIPS 2026</span>
   <a href="/files/NeurIPS26_MagicGuard_abridgedversion.pdf" target="_blank" style="display: inline-block; padding: 3px 12px; background-color: #2ea44f; color: white; border-radius: 4px; text-decoration: none; font-size: 13px; font-weight: bold; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"><i class="fas fa-file-pdf"></i> 附论文部分内容 (PDF)</a>
 <div class='paper-box'>
     <div class='paper-box-image'>
