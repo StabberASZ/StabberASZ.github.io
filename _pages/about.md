@@ -70,7 +70,7 @@ author_profile: true
     <div class='paper-box-image'>
       <div>
         <div class="badge">NeurIPS 2026</div>
-        <img src='files/MagicGuard_Method1.jpg' alt="sym" width="100%">
+        <img src='files/MagicGuard_Method2.jpg' alt="sym" width="100%">
       </div>
     </div>
   </div>
