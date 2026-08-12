@@ -7,7 +7,7 @@ author_profile: true
 
 您好！我是**程业正 (Yezheng Cheng)**，目前是**西安电子科技大学 (Xidian University)** 通信工程学院信息工程专业的本科生（2023级）。我的学业成绩优异（前五学期GPA: 90.33 / 100，GPA专业排名 **1 / 125**），并在校期间连续两年荣获**国家奖学金**。
 
-我的过往研究主要集中在**人工智能安全 (AI Security)**、**视觉语言模型 (VLMs)** 以及**大语言模型推理 (LLM Reasoning)**。我曾致力于探索系统级优化对模型安全性的潜在影响、后门攻击与防御机制，以及大模型的少样本推理与逻辑求解。目前，我以第一作者身份在人工智能顶级会议（ECCV, NeurIPS）有相关论文在投。我具备丰富的软硬件协同设计经验，期待能在前沿研究中构建鲁棒、安全、高效的人工智能系统。**作为本科生，我还非常期待在未来的研究生涯中尝试更多人工智能方向上未曾接触过的新领域，进行学习、研究与落地应用。**
+我的过往研究主要集中在**人工智能安全 (AI Security)**、**视觉语言模型 (VLMs)** 以及**大语言模型推理 (LLM Reasoning)**。我曾致力于探索系统级优化对模型安全性的潜在影响、后门攻击与防御机制，以及大模型的少样本推理与逻辑求解。我具备丰富的软硬件协同设计经验，期待能在前沿研究中构建鲁棒、安全、高效的人工智能系统。**作为本科生，我还非常期待在未来的研究生涯中尝试更多人工智能方向上未曾接触过的新领域，进行学习、研究与落地应用。**
 
 ---
 
@@ -35,7 +35,7 @@ author_profile: true
 
 <h2 id="research"><i class="fas fa-microscope"></i> 研究经历 (Research Experience)</h2>
 
-### [1] VLMSysTrojan: 针对视觉语言模型的隐蔽系统感知后门攻击
+### VLMSysTrojan: 针对视觉语言模型的隐蔽系统感知后门攻击
 <div style="margin-bottom: 10px;">
   <span style="background-color: #f1f8ff; color: #0366d6; padding: 2px 8px; border-radius: 4px; font-size: 13px; font-weight: bold; margin-right: 5px;">第一作者</span>
   <span style="background-color: #fffbdd; color: #735c0f; padding: 2px 8px; border-radius: 4px; font-size: 13px; font-weight: bold; margin-right: 10px;">已录用于 ECCV 2026</span>
@@ -62,46 +62,13 @@ author_profile: true
 
 <br>
 
-### [2] MagicGuard: 针对预训练模型恶意微调的统一自毁防御
-<div style="margin-bottom: 10px;">
-  <span style="background-color: #f1f8ff; color: #0366d6; padding: 2px 8px; border-radius: 4px; font-size: 13px; font-weight: bold; margin-right: 5px;">第一作者</span>
-  <span style="background-color: #fffbdd; color: #735c0f; padding: 2px 8px; border-radius: 4px; font-size: 13px; font-weight: bold; margin-right: 10px;">已投稿于 NeurIPS 2026</span>
-  <a href="/files/NeurIPS26_MagicGuard_abridgedversion.pdf" target="_blank" style="display: inline-block; padding: 3px 12px; background-color: #2ea44f; color: white; border-radius: 4px; text-decoration: none; font-size: 13px; font-weight: bold; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"><i class="fas fa-file-pdf"></i> 附论文部分内容 (PDF)</a>
-  <a href="/files/OpenReview_NeurIPS26_MagicGuard.png" target="_blank" style="display: inline-block; padding: 3px 12px; background-color: #735c0f; color: white; border-radius: 4px; text-decoration: none; font-size: 13px; font-weight: bold; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"> 附投稿截图</a>
-<div class='paper-box'>
-    <div class='paper-box-image'>
-      <div>
-        <div class="badge">NeurIPS 2026</div>
-        <img src='files/MagicGuard_Method2.jpg' alt="sym" width="100%">
-      </div>
-    </div>
-  </div>
-</div>
-
-* **研究方向**: 人工智能安全、模型水印、概念擦除
-* **研究背景**: 现有的防止恶意下游微调技术都存在其脆弱性，攻击者可通过模型微调(Fine-tuning)轻易擦除水印记忆或激活扩散模型中已被遗忘的有害概念等。面对掌握完整训练数据的深度微调攻击，传统被动防御陷入“猫鼠游戏”，亟需一种主动式的全新防御范式防止预训练模型被盗用。
-* **核心方法**: 提出首个通过主动自毁 (Self-destruction) 策略抵御水印微调移除攻击的框架 **MagicGuard**。在目标模型中注入带有混淆激活函数 (如引入残差 $f(x)=x+\sin(x)$) 的专有层。该层在正常前向传播时近似恒等映射，完美保留良性预测效用；但在遭遇恶意微调反向传播时，混淆函数产生极具破坏性的随机梯度，严重干扰并掩蔽真实梯度，阻止权重正常收敛。
-* **实验效果**: 在跨越 4 种模型架构、4 种主流水印方案、3 个图像数据集以及 Stable Diffusion 概念遗忘的广泛实验中，**MagicGuard** 展现出统治级的防御性能：在分类器标准的微调下，累积的噪声会引发参数的随机游走，使权重退化至完全不可用；在扩散模型基于指数移动平均 (EMA) 的微调范式下，该噪声会被高阶滤波器高效抵消并归零，使得最终保存的权重死锁在初始基线附近。
 
 ---
 
 <h2 id="competitions"><i class="fas fa-trophy"></i> 竞赛经历 (Competitions)</h2>
 
-### [1] 基于掩码扩散与自适应推理范式的少样本视觉逻辑求解系统
-<div style="margin-bottom: 10px;">
-  <span style="background-color: #e5f5e0; color: #2ca25f; padding: 2px 8px; border-radius: 4px; font-size: 13px; font-weight: bold; margin-right: 5px;">ARC Prize 2025 全球挑战赛 | Bronze Medal (铜牌, 107/1456, Top 7.5%)</span>
-  <span style="background-color: #f3f4f6; color: #374151; padding: 2px 8px; border-radius: 4px; font-size: 13px; font-weight: bold;">核心队员</span>
-  <a href="/files/ARC2025yezheng.png" target="_blank" style="display: inline-block; padding: 3px 12px; background-color: #0366d6; color: white; border-radius: 4px; text-decoration: none; font-size: 13px; font-weight: bold; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"><i class="fas fa-award"></i> 获奖证书</a>
-</div>
 
-* **研究方向**: 大语言模型推理、扩散模型、少样本视觉逻辑推理
-* **挑战与方法**: 针对 ARC 基准测试中数据极度匮乏(仅约3个示例)和巨大分布偏移(OOD)的挑战，提出融合二维掩码扩散与动态增强推理的高效复合架构。
-  1. **Skill-Mix 数据合成**: 利用大模型融合逻辑算子自动合成海量复杂变种任务，引入 BPE Dropout 随机正则化提升鲁棒性。
-  2. **二维掩码扩散 LLM**: 结合二维位置编码构建掩码扩散语言模型，将网格生成转化为连续迭代采样的掩码还原过程，赋予模型全局统筹与自我纠错能力。
-  3. **测试时训练 (TTT)**: 基于 AIRV 对极少示例进行几何变换以动态微调底座模型，并将预测结果反向变换后集成投票(Vote)消除视角方差。
-* **项目效果**: 在严苛算力与时间约束下，于极具挑战性的隐藏测试集取得极为优异的准确率，持平同期参数量庞大的闭源商业大模型 (如 Opus 4.5)。
-
-### [2] CPO-RF: 基于多模型协同与元启发式优化的奥运会奖牌预测
+### CPO-RF: 基于多模型协同与元启发式优化的奥运会奖牌预测
 <div style="margin-bottom: 10px;">
   <span style="background-color: #e5f5e0; color: #2ca25f; padding: 2px 8px; border-radius: 4px; font-size: 13px; font-weight: bold; margin-right: 5px;">MCM/ICM 2025 | Finalist (特等奖提名, 排名前 1.1%)</span>
   <span style="background-color: #f3f4f6; color: #374151; padding: 2px 8px; border-radius: 4px; font-size: 13px; font-weight: bold;">核心队员</span>
@@ -122,7 +89,6 @@ author_profile: true
 
 * **国家奖学金** (Top 1%, ¥10000) <span style="float: right;">*西安电子科技大学* `2024-2025年度`</span>
 * **国家奖学金** (Top 1%, ¥10000) <span style="float: right;">*西安电子科技大学* `2023-2024年度`</span>
-* **Bronze Medal (铜牌)** <span style="float: right;">*ARC Prize 2025 全球挑战赛* `2025年`</span>
 * **Finalist (特等奖提名, Top 1.1%)** <span style="float: right;">*美国大学生数学建模竞赛 (MCM/ICM)* `2025年`</span>
 * **华萌奖学金** <span style="float: right;">*西安电子科技大学* `2025年`</span>
 * **校级优秀学生** <span style="float: right;">*西安电子科技大学* `2024年, 2025年`</span>
