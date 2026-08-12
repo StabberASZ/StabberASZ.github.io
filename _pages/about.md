@@ -39,9 +39,8 @@ author_profile: true
 <div style="margin-bottom: 10px;">
   <span style="background-color: #f1f8ff; color: #0366d6; padding: 2px 8px; border-radius: 4px; font-size: 13px; font-weight: bold; margin-right: 5px;">第一作者</span>
   <span style="background-color: #fffbdd; color: #735c0f; padding: 2px 8px; border-radius: 4px; font-size: 13px; font-weight: bold; margin-right: 10px;">已录用于 ECCV 2026</span>
-  <a href="/files/ECCV26_VLMSysTrojan_abridgedversion.pdf" target="_blank" style="display: inline-block; padding: 3px 12px; background-color: #2ea44f; color: white; border-radius: 4px; text-decoration: none; font-size: 13px; font-weight: bold; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"><i class="fas fa-file-pdf"></i> 附论文 (PDF)</a>
- <a href="/files/CVPR2026Reviews.pdf" target="_blank" style="display: inline-block; padding: 3px 12px; background-color: #0366d6; color: white; border-radius: 4px; text-decoration: none; font-size: 13px; font-weight: bold; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"><i class="fas fa-comments"></i> 附 CVPR2026 审稿意见</a>
- <a href="/files/OpenReview_ECCV_VLMSysTrojan.png" target="_blank" style="display: inline-block; padding: 3px 12px; background-color: #735c0f; color: white; border-radius: 4px; text-decoration: none; font-size: 13px; font-weight: bold; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"> 附录用证明</a>
+  <a href="/files/ECCV26_VLMSysTrojan_abridgedversion.pdf" target="_blank" style="display: inline-block; padding: 3px 12px; background-color: #2ea44f; color: white; border-radius: 4px; text-decoration: none; font-size: 13px; font-weight: bold; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"><i class="fas fa-file-pdf"></i> 论文 (PDF)</a>
+ <a href="/files/CVPR2026Reviews.pdf" target="_blank" style="display: inline-block; padding: 3px 12px; background-color: #0366d6; color: white; border-radius: 4px; text-decoration: none; font-size: 13px; font-weight: bold; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"><i class="fas fa-comments"></i> CVPR2026 审稿意见</a>
 <div class='paper-box'>
     <div class='paper-box-image'>
       <div>
@@ -72,7 +71,6 @@ author_profile: true
 <div style="margin-bottom: 10px;">
   <span style="background-color: #e5f5e0; color: #2ca25f; padding: 2px 8px; border-radius: 4px; font-size: 13px; font-weight: bold; margin-right: 5px;">MCM/ICM 2025 | Finalist (特等奖提名, 排名前 1.1%)</span>
   <span style="background-color: #f3f4f6; color: #374151; padding: 2px 8px; border-radius: 4px; font-size: 13px; font-weight: bold;">核心队员</span>
- <a href="/files/meisaiF.pdf" target="_blank" style="display: inline-block; padding: 3px 12px; background-color: #2ea44f; color: white; border-radius: 4px; text-decoration: none; font-size: 13px; font-weight: bold; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"><i class="fas fa-file-pdf"></i> 附论文原件 (PDF)</a>
  <a href="/files/MCMICM2025yezheng.png" target="_blank" style="display: inline-block; padding: 3px 12px; background-color: #0366d6; color: white; border-radius: 4px; text-decoration: none; font-size: 13px; font-weight: bold; box-shadow: 0 1px 3px rgba(0,0,0,0.1);"><i class="fas fa-award"></i> 获奖证书</a>
 </div>
 
